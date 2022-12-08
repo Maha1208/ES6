@@ -18,6 +18,10 @@ n(30);
 let add = (a,b,c) => {  
     console.log(a + b + c );  
 }  
-add(100,200,300);  
+add(100,200,300);
+
+
+const materials = ['Hydrogen','Helium','Lithium', 'Beryllium'];
+console.log(materials.map(material => material.length));
 
 
