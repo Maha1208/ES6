@@ -1,5 +1,4 @@
 /*Function expression:
-
 let sum = function(a, b) {
   return a + b;
 };
@@ -21,6 +20,4 @@ let add = (a,b,c) => {
 }  
 add(100,200,300);  
 
-let odds  = evens.map(v => v + 1)
-let pairs = evens.map(v => ({ even: v, odd: v + 1 }))
-let nums  = evens.map((v, i) => v + i)
+
