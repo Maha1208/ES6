@@ -1,9 +1,9 @@
-loadScript("/article/promise-chaining/one.js")
-  .then(script => loadScript("Scope.js"))
-  .then(script => loadScript("/article/promise-chaining/three.js"))
+loadScript("/ES6/callstack.js")
+  .then(script => loadScript("/ES6/Scope.js"))
+  .then(script => loadScript("/ES6/constant.js"))
   .then(script => {
     // scripts are loaded, we can use functions declared there
-    one();
-    two();
-    three();
+    callstack();
+    Scope();
+    constant();
   });
