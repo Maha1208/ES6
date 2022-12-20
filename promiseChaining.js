@@ -1,8 +1,7 @@
 //promise chaining
-
 new Promise(function(resolve, reject) {
 
-    setTimeout(() => resolve(1), 1000); 
+    setTimeout(() => resolve(2), 3000); 
   
   }).then(function(result) { 
   
