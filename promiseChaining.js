@@ -19,4 +19,3 @@ new Promise(function(resolve, reject) {
     return result * 2;
   
   });
-
