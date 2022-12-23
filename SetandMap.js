@@ -15,9 +15,7 @@ s1.delete("c");
 console.log(s1);
 
 //has
-console.log(s1.has("a"));//false
-
-//foreach
+console.log(s1.has("a"));//fals
 
 //values
 const iterator=s1.values()

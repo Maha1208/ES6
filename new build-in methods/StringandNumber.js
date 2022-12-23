@@ -15,10 +15,6 @@ console.log([ 1, 3, 4, 2 ].findIndex(x => x > 3))
 //Number Type checking
 console.log(Number.isNaN(42) === false);
 console.log(Number.isNaN(NaN) === true);
-
-console.log(Number.isFinite(Infinity) === false);
-console.log(Number.isFinite(-Infinity) === false);
-console.log(Number.isFinite(NaN) === false);
 console.log(Number.isFinite(123) === true);
 
 //Number safety checking
